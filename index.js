@@ -15,7 +15,6 @@ app.get("/", (req,res)=>{
 
 app.use("/users", userRouter)
 
-
 app.listen(6120, async ()=>{
     try{
         await connection
